@@ -6,6 +6,7 @@ import Notfound from "../components/Notfound";
 import Registration from "../components/Registration";
 import Service from "../components/Services/Service";
 import Services from "../components/Services/Services";
+import SingleService from "../components/Services/SingleService";
 
 export const PublicRoute =[
 {path:'/', name:Home, Component:Home},
@@ -15,5 +16,6 @@ export const PublicRoute =[
 {path:'/registration', name:Registration, Component:Registration},
 {path:'/services', name:Services, Component:Services},
 {path:'/service', name:Service, Component:Service},
+{path:'/singleservice', name:SingleService, Component:SingleService},
 {path:'*', name:Notfound, Component:Notfound}
 ]
