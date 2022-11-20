@@ -7,7 +7,7 @@ const SingleService = () => {
     console.log(services);
     return (
         <div>
-            <h2> Service Details</h2>
+            <h2 className='text-3xl' > Service Details</h2>
             {services?.length}
             <br/>
             Service Name : {services?.name}
