@@ -10,7 +10,7 @@ const SingleService = () => {
             <h2 className='text-3xl' > Service Details</h2>
             {services?.length}
             <br/>
-            Service Name : {services?.name}
+            Service Name : {services?.name}<b/><br/>
             Email Address : {services?.email}
             Address:{services?.address};
             {
